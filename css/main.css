@@ -73,8 +73,8 @@ body {
 	font-family: 'Comic Sans MS';
 	font-size: 2em;
 	font-weight: bold;
-	text-align: left;
-	margin-right: 250px;
+	/*text-align: left;*/
+	margin-right: 330px;
 }
 
 .instructions p ~ p {
