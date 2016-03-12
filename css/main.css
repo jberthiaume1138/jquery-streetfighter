@@ -29,15 +29,15 @@ body {
 } 
 
 .ryu-ready {
-  background-image: url('../images/ryu-ready-position.gif');
+	background-image: url('../images/ryu-ready-position.gif');
 }
 
 .ryu-still {
-  background-image: url('../images/ryu-standing-still.png');
+ 	background-image: url('../images/ryu-standing-still.png');
 }
 
 .ryu-throwing {
-  background-image: url('../images/ryu-throwing-hadouken.png');
+ 	background-image: url('../images/ryu-throwing-hadouken.png');
 }
 
 .ryu-cool {
@@ -45,21 +45,39 @@ body {
 }
 
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
-  background-repeat: no-repeat;
+ 	background-repeat: no-repeat;
 }
 
 .hadouken {
-  background-image: url('../images/hadouken.gif');
-  width: 156px; 
-  height: 90px;
-  display: none;
-  float: left;
-  position: absolute;
-  z-index: 10;
-  top: 165px;
-  left: 515px;
+	background-image: url('../images/hadouken.gif');
+	width: 156px; 
+	height: 90px;
+	display: none;
+	float: left;
+	position: absolute;
+	z-index: 10;
+	top: 165px;
+	left: 515px;
 }
 
-/** {  temp remove 
-  outline: red 1px solid;
-}*/
+.instructions {
+  position: absolute;
+  left: 650px;
+  width: 600px;
+  height: 494px;
+  padding-top: 3em;
+  margin: 0;
+}
+
+.instructions p {
+	font-family: 'Comic Sans MS';
+	font-size: 2em;
+	font-weight: bold;
+	text-align: left;
+	margin-right: 250px;
+}
+
+.instructions p ~ p {
+	margin-right: 0;
+	margin-left: 250px;
+}

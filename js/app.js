@@ -29,14 +29,14 @@ $(document).ready(function() {
 
  	$(document).keydown(function(e) {
  		if (e.which == 88 ) {
-			console.log("key=" + event.keyCode);
+			console.log("key=" + event.keyCode + " down");
 			coolRyu();
     	}
     })
 
  	$(document).keyup(function(e) {
  		if (e.which ==88 ) {
- 			console.log("key=" + event.keyCode + "up");
+ 			console.log("key=" + event.keyCode + " up");
  			stillRyu();
  		}
  	});
